@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import GlobalStyles from "./styles/GlobalStyles";
-function App(){
+const App = () => {
   return (
     <View style={GlobalStyles.contenedor}>
     <Text style={GlobalStyles.texto}>Hola</Text>
@@ -8,13 +8,4 @@ function App(){
     </View>
   )
 }
-const styles = StyleSheet.create({
-  contenedor:{
-    marginTop: 300,
-    marginLeft: 80
-  },
-  texto: {
-    fontSize: 24
-  }
-})
 export default App
