@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-export default function App(){
+function App(){
   return (
     <View style={styles.contenedor}>
     <Text style={styles.texto}>Hola</Text>
@@ -16,3 +16,4 @@ const styles = StyleSheet.create({
     fontSize: 24
   }
 })
+export default App
